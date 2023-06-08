@@ -1,3 +1,9 @@
 #!/bin/bash
-ls -la . ..
+echo "Listing for current directory:"
+ls -la
+echo ""
+echo "Listing for parent directory:"
+ls -la ..
+echo ""
+echo "Listing for /boot directory:"
 ls -la /boot
